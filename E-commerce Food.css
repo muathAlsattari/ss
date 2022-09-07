@@ -1,0 +1,234 @@
+:root{
+    --green:rgb(20,219,20);
+}
+
+/* nav */
+.navbar .navbar-brand img{
+    width: 100px;
+    height: 50px;
+}
+.navbar .navbar-nav .nav-link{
+    margin-left: 10px;
+    font-weight: 500;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+    color: black;
+}
+
+.navbar .navbar-nav .nav-link:hover{
+    color: var(--green);
+}
+.navbar .search{
+    border: 2px solid var(--green);
+    border-radius: 20px 0px  0px 20px;
+    width: 150px;
+    border-right: none;
+}
+
+.navbar .btn{
+    border: 2px solid var(--green);
+    border-radius: 0px 20px  20px 0px;
+    background-color: var(--green);
+    color: white;
+    font-weight: 500;
+}
+
+.navbar .search:focus {
+   outline: none;
+   box-shadow: none;
+   
+}
+/* nav */
+
+/* landing */
+.landing{
+    background-image: url(img/imgs/main.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: calc(100vh - 72px);
+    justify-content: center;
+    align-items: center;
+}
+.landing .row h1{
+    font-size: 3rem;
+}
+.landing .row h1 span{
+    border-bottom: 3px solid var(--green);
+}
+.landing .row .btn1{
+    background-color: var(--green);
+    color: white;
+    border-radius: 50px;
+    border: 1px solid var(--green);
+    transition: all .3s ease;
+}
+
+.landing .row .btn1:hover{
+    background-color: rgb(13,172,13);
+}
+
+.landing .row .btn2{
+    background-color: transparent;
+    color: var(--green);
+    border-radius: 50px;
+    border: 1px solid var(--green);
+    transition: all .3s ease;
+}
+
+.landing .row .btn2:hover{
+    background-color: var(--green);
+    color: white;
+
+}
+
+
+/* landing */
+
+/* about */
+.about{
+    background-image: url(img/imgs/abut.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    width: 100%; 
+}
+
+.about .row h1{
+    font-size: 3rem;
+}
+.about .row h1 span{
+    border-bottom: 3px solid var(--green);
+}
+
+.about .row .btn1{
+    background-color: var(--green);
+    color: white;
+    border-radius: 50px;
+    border: 1px solid var(--green);
+    transition: all .3s ease;
+}
+/* <div class="abouts  position-absolute w-50 h-50  p-3 "> </div> */
+.about .row .btn1:hover{
+    background-color:transparent;
+    color: var(--green);
+}
+.about .abouts{
+    background-color: rgb(0 0 0 / 60%);
+    z-index: 1;
+    
+}
+.about .hh{
+  z-index: 2;
+    
+}
+
+/* about */
+.clear{
+    clear: both;
+}
+/* welcome */
+.welcome{
+    background-color: var(--green);
+}
+
+.welcome .line{
+    width: 150px;
+    height: 3px;
+    background-color: white;
+
+}
+.welcome .row .card{
+    background-color: white;   
+    transition: all .3s ease;
+}
+.welcome .row .card:hover{
+   transform: translateY(-4px) scale(1.1);  
+}
+
+.welcome .row .card .icon{
+    transition:all .3s ease-in;
+    
+}
+.welcome .row .card:hover .icon{
+    color: var(--green);
+    
+}
+/* welcome */
+/* Products */
+.Products .container .line{
+    width: 150px;
+    height: 3px;
+    background-color: var(--green);
+}
+.Products .container .row .cards{
+    border-radius: 15px;
+}
+.Products .container .row .card{
+    cursor: pointer;
+    border: 2px solid;
+    transition: all .3s ease-out;
+}
+.Products .container .row .card:hover{
+    box-shadow: 15px 15px 8px #888888;
+    z-index: 2;
+}
+
+.Products .container .row .btn{
+    background-color: var(--green);
+}
+.Products .container .row .btn:hover a{
+  
+    color: red!important ;
+}
+.read .btn{
+    background-color: var(--green);
+}
+
+/* Products */
+/* discount */
+.discount{
+    background-color: var(--green);
+}
+.discount .btn{
+    border: none;
+ }
+.discount .btn:hover{
+   color: var(--green);
+}
+/* discount */
+/* store */
+.store .container .line{
+    width: 150px;
+    height: 3px;
+    background-color: var(--green);
+}
+.store .container .row .card{
+    transition: all .3s ease-in;
+}
+
+.store .container .row .card:hover{
+    color: white;
+    background-color: var(--green);
+    box-shadow: 10px 10px 8px #888888;
+    transform: translateY(-4px) scale(1.1);
+    z-index: 2;
+}
+.store .container .row .card:hover p{
+    color: white;
+}
+/* store */
+/* Arrivals */
+.Arrivals .card{
+    overflow: hidden;
+    transition:all .5s ease;
+    
+}
+.Arrivals .card:hover{
+    transform: translateY(-4px) scale(1.04);
+    box-shadow: 10px 8px 10px #888888 ;
+    border: 2px solid rgb(13,202,240);
+    box-sizing: border-box;
+}
+/* Arrivals */
