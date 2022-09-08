@@ -81,7 +81,7 @@
     border-radius: 50px;
     border: 1px solid var(--green);
     transition: all .3s ease;
-    width: 150px;
+    width: 130px;
 }
 
 .landing .row .btn2:hover{
