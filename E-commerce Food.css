@@ -1,6 +1,11 @@
 :root{
     --green:rgb(20,219,20);
 }
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 
 /* nav */
 .navbar .navbar-brand img{
@@ -46,7 +51,8 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    min-height: calc(100vh - 72px);
+    min-height: calc(100vh );
+    min-width: 100%;
     justify-content: center;
     align-items: center;
 }
@@ -62,6 +68,7 @@
     border-radius: 50px;
     border: 1px solid var(--green);
     transition: all .3s ease;
+    width: 150px;
 }
 
 .landing .row .btn1:hover{
@@ -74,6 +81,7 @@
     border-radius: 50px;
     border: 1px solid var(--green);
     transition: all .3s ease;
+    width: 150px;
 }
 
 .landing .row .btn2:hover{
