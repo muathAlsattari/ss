@@ -69,6 +69,7 @@
     border: 1px solid var(--green);
     transition: all .3s ease;
     width: 150px;
+    
 }
 
 .landing .row .btn1:hover{
